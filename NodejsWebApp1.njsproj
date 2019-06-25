@@ -29,6 +29,9 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="config\config.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="middlewares\auth.js">
       <SubType>Code</SubType>
     </Content>
@@ -48,6 +51,7 @@
   <ItemGroup>
     <Folder Include="model\" />
     <Folder Include="middlewares\" />
+    <Folder Include="config\" />
     <Folder Include="Routes\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
